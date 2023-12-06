@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+   list-style: none;
+   text-decoration: none;
+   border: none;
+   /* font-family: 'Schoolbell', cursive;  */
+}
+
+.container{
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* ---------------header start -------------------*/
+header{
+    background-image: url(./imeges/photo_2023-11-23_17-30-17.jpg);
+    position: relative;
+    height: 1114px;
+}
+
+/* ---------------navbar start -------------------*/
+
+.header-nav{
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 45px 0;
+
+} 
+
+nav>ul>li>a{
+    color: #A1B5BB;
+    font-size: 18px;
+    font-weight: 400;
+     transition: all 0.2s linear;
+}
+
+nav>ul>li>a:hover{
+   width: 100%;
+   border-bottom: 3px solid #A1B5BB;
+   transition: all 0.2s linear;
+   cursor: pointer;
+}
+
+nav>button{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px; 
+    width: 140px;
+    height: 58px;
+    border-radius: 25px;
+    background: #145E76;
+}
+
+nav>button:hover{
+    cursor: pointer;
+    background: #145e7688;
+
+}
+/* ---------------navbar end -------------------*/
+
+/* ---------------card1 start -------------------*/
+.card1{
+    height: 730px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 248px; 
+}
+
+.card1__div>h3{
+    color: #FFF;
+    display: inline-block;
+    font-family: Schoolbell;
+    display: flex;
+    align-items: center;
+    padding: 16px 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #094556;
+}
+.card1__div>h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 537px;
+}
+
+.card1__div>p{
+    color: #849499;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.8px; 
+margin-bottom: 50px;
+width: 511px;
+}
+
+.card1__div>button{
+    color: #B6CDD4;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28.8px;
+width: 137px;
+height: 61px;
+border-radius: 25px;
+background-image: url(./imeges/photo_2023-11-23_17-30-17.jpg);
+}
+ 
+.card1__div>button:hover{
+    color: #FFF;
+    background: #FFA63A;
+    cursor: pointer;
+}
+
+.card1__div2{
+    position: absolute;
+    bottom: -161.5px;
+    width: 100%;
+    max-width: 1170px;
+    height: 323px;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 64px;text-align: center;
+    box-shadow: 0px 73px 80px 0px rgba(0, 0, 0, 0.06)
+}
+
+.card1__div2>h3{
+    color: #265A6A;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22.4px; 
+    margin-bottom: 79px;
+}
+
+.card1__div2>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1__div2>ul>li>h2{
+    color: #08546C;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 22.4px;
+    margin-bottom: 25px;
+}
+.card1__div2>ul>li>p{
+    color: #08546C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.card1__img:hover{
+    transition: all 0.4s linear;
+    transform: scale(1.04);
+    cursor: pointer;
+    rotate: 360deg;
+}
+
+
+
+/* ---------------card1 end -------------------*/
+
+/* ---------------header end -------------------*/
+
+
+
+/* ---------------main start -------------------*/
+
+/* ---------------card2 start -------------------*/
+#card2{
+    background: #fff;
+}
+.card2>p{
+    color: #265A6A;
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-decoration-line: underline;
+    margin-top: 361px;
+    text-align: center;
+}
+
+.card2>h1{
+    color: #08546C;
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+width: 511px;
+text-align: center;
+margin: 30px auto 70px;
+}
+.card2>h2{
+    color: #08546C;
+    font-family: Inter;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56.25px
+}
+
+.card2>article{
+    color: #757575;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 569px;
+    margin: 10px auto 0;
+    line-height: 28.8px;  
+}
+ 
+.card2__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+    margin-bottom: 200px;
+}
+.card2__div>div{
+    width: 273px;
+    height: 251px;
+    padding: 32px 29px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s linear;
+}
+
+.card2__div>div:hover{
+    background: #08546C;
+    cursor: pointer;
+    transform: scale(1.04);
+    border-radius: 15px;
+    transition: all 0.4s linear;
+    box-shadow: 0px 20px 20px 0px #08546C ;
+}
+
+.card2__div>div>img:not(.card2__div--div-img){
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #F5FBFC;
+    padding: 13px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.card2__div>div:hover>img:not(.card2__div--div-img){
+   background: rgba(255, 168, 0, 1);
+}
+.card2__div--div-img{
+    margin-bottom: 25px;
+
+}
+
+.card2__div--div>h2{
+    color: #0F1221;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card2__div>div:hover>h2{
+    color: #FFF;
+}
+
+.card2__div--div>p{
+    color: #696969;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px; 
+}
+ 
+.card2__div--div:hover>p{
+    color: #B2BBBD;
+}
+
+.card2__div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card2__div2--div>h2{
+    color: #08546C;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28.8px; 
+    margin-top: 20px;
+}
+.card2__div2--div>p{
+    color: #757575;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    width: 426px; 
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.card2__div2--div>a{
+    color: #08546C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+}
+
+.card2__div2--div>a:hover{
+    color: #FFA800;
+    cursor: pointer;
+    font-weight: 700;
+}
+/* ---------------card2 end -------------------*/
+
+
+/* ---------------card3 start -------------------*/
+#Card3{
+    margin-top: 200px;
+    padding: 102px 0;
+    background-image: url(./imeges/photo_2023-11-23_17-30-17.jpg);
+}
+
+.card3__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3__div--div1{
+   width: 380px;
+   height:450px;
+   background:#808f92 ;
+   border: 10px solid  #145E76 ;
+   border-top-right-radius: 50% ;
+   border-top-left-radius: 50%;
+   position: relative;
+}
+
+.card3__div--div1>img{
+    position: absolute;
+    bottom: 0px;
+    left: -90px;
+    transition: all 0.4s linear;
+}
+.card3__div--div1>img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.4s linear;
+    rotate: 360deg;
+   
+}
+
+.card3__div--div>h6{
+    width: 585px;
+    height: 151px;
+    color: #FFF;
+    font-family: Inter;
+    margin: 33px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px
+
+}
+
+.card3__div--div>p{
+    color: #AABFC6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; 
+}
+/* ---------------card3 end -------------------*/
+/* ---------------main end -------------------*/
+
+
+
+/* ---------------card4 start -------------------*/
+
+#card4{
+    background: #FFF;
+    padding: 100px 0;
+}
+.card4{
+    display: flex;
+    justify-content: baseline;
+    gap: 140px;
+}
+.card4>div>p{
+    color: #757575;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 344px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.card4>div>h2{
+    color: #08546C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-bottom: 24px;
+}
+
+.card4>div>ul>li>a{
+    color: #787878;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 10px;
+}
+.card4>div>div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card4>div>div>svg:hover{
+    fill: #39c5ef;
+   transition: all 0.2s linear;
+   transform:scale(1.2);
+    cursor: pointer;
+}
+/* ---------------card4 end -------------------*/
+
